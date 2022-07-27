@@ -15,11 +15,15 @@ h3 {
     font-size: 25px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 p {
     font-size: 20px;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -51,4 +55,35 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.color {
+    color: orange;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#Full-Stack-Developer {
+    border-right: 7px solid tomato;
+}
+
+#Baby-Web-Developer {
+    border-right: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
